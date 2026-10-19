@@ -1,0 +1,26 @@
+[project]
+name = "ragsearch"
+version = "0.1.0"
+description = "RAG com documentos, fontes verificáveis e avaliação de recuperação."
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "fonttools>=4.60,<5",
+  "httpx>=0.28,<0.29",
+  "pypdf>=6.0,<7",
+  "python-dotenv>=1.1,<2",
+  "scikit-learn>=1.7,<2",
+  "streamlit>=1.50,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.4,<10", "ruff>=0.13,<1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

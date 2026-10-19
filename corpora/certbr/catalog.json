@@ -1,0 +1,9 @@
+{
+  "name": "Segurança digital — CERT.br",
+  "publisher": "CERT.br / NIC.br",
+  "homepage": "https://cartilha.cert.br/",
+  "index_url": "https://cartilha.cert.br/fasciculos/",
+  "preferred_topics": ["backup", "autenticacao", "golpes-evite-fraudes", "redes-sociais", "protecao-de-dados"],
+  "document_limit": 5,
+  "status": "O catálogo descreve a seleção. Os PDFs importados e a procedência ficam em snapshot/manifest.json."
+}

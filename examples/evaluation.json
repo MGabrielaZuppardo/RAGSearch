@@ -1,0 +1,8 @@
+[
+  {"question": "Qual é o prazo para solicitar reembolso?", "source": "reembolsos.md", "evidence": "30 dias"},
+  {"question": "Qual o limite de alimentação em viagem?", "source": "reembolsos.md", "evidence": "R$ 100"},
+  {"question": "Como solicitar trabalho remoto?", "source": "trabalho-remoto.md", "evidence": "cinco dias úteis"},
+  {"question": "Por quanto tempo os backups são mantidos?", "source": "seguranca.md", "evidence": "90 dias"},
+  {"question": "Qual é o horário de atendimento do suporte de TI?", "source": "trabalho-remoto.md", "evidence": "9h às 18h"},
+  {"question": "Qual é a capital da Noruega?", "source": null, "evidence": null}
+]

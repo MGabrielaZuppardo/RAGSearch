@@ -1,0 +1,47 @@
+{
+  "name": "Segurança digital — CERT.br",
+  "publisher": "CERT.br / NIC.br",
+  "homepage": "https://cartilha.cert.br/",
+  "index_url": "https://cartilha.cert.br/fasciculos/",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "license_source_url": "https://cartilha.cert.br/cc/",
+  "license_scope": "Licença oficial dos fascículos; preserve os avisos de cada PDF.",
+  "retrieved_at": "2026-10-19T21:09:43.490485+00:00",
+  "documents": [
+    {
+      "filename": "fasciculo-backup.pdf",
+      "url": "https://cartilha.cert.br/fasciculos/backup/fasciculo-backup.pdf",
+      "bytes": 628688,
+      "pages": 14,
+      "sha256": "968130de98c1b098a11fccfca27f67d05eb98580fc9b7c5e1a88efeadb644f3d"
+    },
+    {
+      "filename": "fasciculo-autenticacao.pdf",
+      "url": "https://cartilha.cert.br/fasciculos/autenticacao/fasciculo-autenticacao.pdf",
+      "bytes": 615458,
+      "pages": 22,
+      "sha256": "f54cc01c8e96e436ee59d2657e6545a6be47b856d605f4f30a565a1c9202371f"
+    },
+    {
+      "filename": "fasciculo-golpes-evite-fraudes.pdf",
+      "url": "https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes.pdf",
+      "bytes": 751536,
+      "pages": 21,
+      "sha256": "5dbe95a2227b714bc6b42c8548ee9e259a865f7ca911d00c740ac4576931332c"
+    },
+    {
+      "filename": "fasciculo-redes-sociais.pdf",
+      "url": "https://cartilha.cert.br/fasciculos/redes-sociais/fasciculo-redes-sociais.pdf",
+      "bytes": 527690,
+      "pages": 19,
+      "sha256": "b8c5e6ec648fbceabc4e98f7876060e9e7baff064c3573f1992eb7b2c2fa3555"
+    },
+    {
+      "filename": "fasciculo-protecao-de-dados.pdf",
+      "url": "https://cartilha.cert.br/fasciculos/protecao-de-dados/fasciculo-protecao-de-dados.pdf",
+      "bytes": 854389,
+      "pages": 26,
+      "sha256": "0582dccc7f27eff1d38a5b18d1f9fa7cb95d3babb33ced062ebdd1d3a93767b1"
+    }
+  ]
+}
