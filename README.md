@@ -8,6 +8,15 @@ O modo de demonstração funciona localmente, sem chave de API. Ele apresenta
 **resultados de busca**, sem simular uma resposta de IA. Com uma chave da OpenAI,
 o mesmo contexto alimenta uma resposta gerada com referências numeradas.
 
+![Tela inicial do RAGSearch com escolha de bases e exemplos de perguntas](docs/screenshots/inicio.png)
+
+A interface separa a base pública de segurança digital dos documentos fictícios
+da empresa. Depois da escolha, o painel **Base ativa** identifica os documentos
+consultados. As sugestões e o exemplo do campo de pergunta acompanham essa escolha.
+Clicar em uma sugestão preenche o campo; a consulta começa ao clicar em
+**Consultar documentos**. Se não houver resultados, a tela sugere uma reformulação
+ou uma troca de base. Os controles de relevância ficam em **Ajustes da busca**.
+
 ## Executar
 
 Requisitos: Python 3.12 e [uv](https://docs.astral.sh/uv/getting-started/installation/).
@@ -17,6 +26,10 @@ Na raiz do repositório:
 uv sync --locked
 uv run streamlit run app.py
 ```
+
+No Windows, se o terminal não reconhecer `uv`, instale com
+`winget install --id astral-sh.uv --exact` e reabra o terminal (ou o VS Code).
+Execute os comandos na pasta que contém `pyproject.toml`, não na subpasta `ragsearch`.
 
 Na interface, clique em **Experimentar base de exemplo** e pergunte:
 

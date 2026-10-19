@@ -1,0 +1,43 @@
+/* Estilos estáticos; documentos e perguntas nunca são inseridos neste HTML. */
+.stMainBlockContainer {
+  max-width: 1120px;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+h1 {
+  max-width: 830px;
+  font-size: clamp(2rem, 3.8vw, 3rem) !important;
+  line-height: 1.15 !important;
+  letter-spacing: -0.035em;
+  margin-bottom: 0.5rem !important;
+}
+h2, h3 { letter-spacing: -0.02em; }
+[data-testid="stSidebar"] { border-right: 1px solid #e1e9e8; }
+[data-testid="stSidebar"] h2 { font-size: 1.4rem; }
+[data-testid="stSidebar"] h3 { font-size: 1rem; }
+[data-testid="stVerticalBlockBorderWrapper"] { border-radius: 16px; }
+.st-key-active_base {
+  background: #ffffff;
+  border: 1px solid #bdd9d4;
+  border-left: 5px solid #0f766e;
+  border-radius: 14px;
+}
+button {
+  border-radius: 10px !important;
+  min-height: 2.75rem;
+}
+[data-testid="stText"] {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+[data-testid="stMetricValue"] { color: #0f766e; font-size: 2rem; }
+@media (max-width: 640px) {
+  .stMainBlockContainer {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

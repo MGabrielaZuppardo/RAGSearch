@@ -62,7 +62,6 @@ def test_public_corpus_in_interface(monkeypatch):
     next(button for button in app.button if button.label == "Consultar documentos").click()
     app.run()
     assert not app.exception
-    assert any(
-        "fasciculo-golpes-evite-fraudes.pdf · página 13" in item.label for item in app.expander
-    )
+    assert any("Golpes: evite fraudes · página 13" in item.label for item in app.expander)
+    assert any("fasciculo-golpes-evite-fraudes.pdf" in item.value for item in app.caption)
     assert any("CNPJ" in item.value for item in app.text)
