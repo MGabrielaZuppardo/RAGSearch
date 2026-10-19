@@ -131,10 +131,3 @@ A integração contínua executa os mesmos comandos em pushes e pull requests.
 Para evoluir o portfólio: ampliar o conjunto de avaliação com casos reais e difíceis,
 comparar recall@k e custo/latência, experimentar embeddings e reranking, e avaliar
 fidelidade e abstenção da geração separadamente da recuperação.
-
-## Apresentação no portfólio
-
-Mostre uma pergunta respondível, abra a fonte correspondente e depois faça uma
-pergunta fora da base. Explique o caminho da ingestão à resposta, a decisão de
-começar com um baseline lexical e os resultados da avaliação. Ao adicionar
-embeddings, preserve o mesmo conjunto de perguntas para tornar a comparação útil.
